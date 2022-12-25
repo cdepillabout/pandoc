@@ -11,3 +11,9 @@ source-repository-package
   type: git
   location: https://github.com/jgm/citeproc
   tag: a8b7748537401d6c9749406a49df7008cea8c7f2
+
+-- When using Nix to build statically-linked executables, it uses a GHC with a
+-- prefix of "x86_64-unknown-linux-musl-".  We have to tell Cabal about this,
+-- otherwise it can't find GHC.
+with-compiler: x86_64-unknown-linux-musl-ghc
+with-hc-pkg: x86_64-unknown-linux-musl-ghc-pkg

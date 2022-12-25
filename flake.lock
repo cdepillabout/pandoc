@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1671711823,
+        "narHash": "sha256-UnNswzhHBxnxjSN9tpo5mq4d+NHknUyo+t7J5uVQj+g=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6bd8620d06bc330870bd6150ae94c475a76438fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "haskell-updates",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "stacklock2nix": "stacklock2nix"
+      }
+    },
+    "stacklock2nix": {
+      "locked": {
+        "lastModified": 1671952924,
+        "narHash": "sha256-VnGTsrxZa+oflX8eCeK5+u6RAjSC/Kxvkjv5nHrQX2Q=",
+        "owner": "cdepillabout",
+        "repo": "stacklock2nix",
+        "rev": "7b65eb56612bac228ff53e7775d2341b9a1a5493",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cdepillabout",
+        "ref": "main",
+        "repo": "stacklock2nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

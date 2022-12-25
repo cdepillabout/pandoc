@@ -31,11 +31,14 @@
 !cabal.project
 !changelog.md
 !default.nix
+!flake.nix
+!flake.lock
 !pandoc.cabal
 !hie.yaml
 !release.nix
 !shell.nix
 !stack.yaml
+!stack.yaml.lock
 !weeder.dhall
 !app/**
 !benchmark/**
